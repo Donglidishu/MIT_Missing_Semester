@@ -1,44 +1,51 @@
-## bash command
+# bash command
 
 #### 命令行参数使用空格分割
-#### `date`
+## `date`
 显示当前日期时间
 
-#### `echo`
+## `echo`
 用于在终端打印文本、变量的值，或进行简单的格式化输出
 
-#### `echo $PATH`
+## `echo $PATH`
 用于显示当前系统的 PATH 环境变量，即 **可执行文件的搜索路径**
 
-#### `pwd`
+## `pwd`
 (print working directory) 显示当前工作文件夹
 
-#### `.`
+## `.`
 当前目录
 
-#### `..`
+## `..`
 父目录
 
-#### `ls`
+## `ls`
 显示当前目录下的文件
 
-#### `cd`  *change directory*
+## `cd`  *change directory*
 `cd ~` 切换到主目录，即登录时所在的目录
 `cd -` 回到之前所在的目录
 
-#### `man`
+## `man`
 用于查询命令对应的手册，例如 `man ls` 会显示如下图的手册: 
 
 ![[PixPin_2025-02-22_00-58-40.png]]
 
 
-#### `cat`
+## `cat`
 print the contents of a file
 打印文件中的内容
 
-#### `< 和 >`
+## `< 和 >`
 left angle bracket indicate rewire the input for this program to be the contents of this file and the end bracket rewire the output of the preceding program into this file
 左尖括号表示将此程序的输入重新连接为此文件的内容，而右尖括号则将前一个程序的输出重新连接到此文件中
-##### *exp:  echo hello  > hello.txt* 
+### *example:  echo hello  > hello.txt* 
 将”hello“ 输出至hello.txt
 
+### `example: cat < hello.txt > hello2.txt`
+作用和 `cp hello.txt hello2.txt` 一样
+
+### `example: cat < hello.txt >> hello2.txt`
+`>>` 的作用是追加，而 `>` 是覆盖，因此这里hello.txt的内容会追加到hello2.txt
+
+![[PixPin_2025-02-22_22-27-36.png]]

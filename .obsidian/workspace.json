@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Lecture1_Course_overview_and_bash.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -95,7 +95,7 @@
               "type": "backlink",
               "state": {
                 "file": "Lecture1_Course_overview_and_bash.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -151,12 +151,12 @@
               "title": "Lecture1_Course_overview_and_bash 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,6 +170,8 @@
   },
   "active": "e0737c0e2593c72c",
   "lastOpenFiles": [
+    "png_md/PixPin_2025-02-22_22-27-36.png",
+    "Lecture1_Bash/hello2.txt",
     "Lecture1_Bash/hello.txt",
     "png_md/PixPin_2025-02-22_00-58-40.png",
     "png_md",
