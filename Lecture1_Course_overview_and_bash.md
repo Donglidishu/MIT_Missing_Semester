@@ -29,7 +29,7 @@
 ## `man`
 用于查询命令对应的手册，例如 `man ls` 会显示如下图的手册: 
 
-![[PixPin_2025-02-22_00-58-40.png]]
+![[./png_md/PixPin_2025-02-22_00-58-40.png]]
 
 
 ## `cat`
@@ -48,7 +48,7 @@ left angle bracket indicate rewire the input for this program to be the contents
 ### `example: cat < hello.txt >> hello2.txt`
 `>>` 的作用是追加，而 `>` 是覆盖，因此这里hello.txt的内容会追加到hello2.txt
 如图所示：
-![[PixPin_2025-02-22_22-27-36.png]]
+![[./png_md/PixPin_2025-02-22_22-27-36.png]]
 
 ## `tail`
 用于打印最后n行
@@ -59,11 +59,11 @@ left angle bracket indicate rewire the input for this program to be the contents
 pipe用于将左边程序的输出作为右边命令的输入
 ### `example: ls -l | tail -n1`
 如图所示：
-![[PixPin_2025-02-23_00-46-36.png]]
+![[./png_md/PixPin_2025-02-23_00-46-36.png]]
 
 ### `example: ls -l | tail -n1 > tail.txt`
 如图所示，将输出直接写入tail.txt
-![[PixPin_2025-02-23_00-53-16.png]]
+![[./png_md/PixPin_2025-02-23_00-53-16.png]]
 
 ## `tee`
 同时输出到标准输出（终端）和文件
