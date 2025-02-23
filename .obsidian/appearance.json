@@ -1,1 +1,8 @@
-{}
+{
+  "monospaceFontFamily": "Comic Shanns Mono",
+  "interfaceFontFamily": "Comic Shanns Mono",
+  "textFontFamily": "",
+  "translucency": false,
+  "theme": "system",
+  "cssTheme": "Things"
+}
