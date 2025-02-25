@@ -26,6 +26,20 @@
 `cd ~` 切换到主目录，即登录时所在的目录
 `cd -` 回到之前所在的目录
 
+## `rm`
+删除文件
+
+## `mv` 
+重命名: mv oldname newname
+移动: mv filename /directory/......
+移动至父文件夹: mv filename ..  (`..表示父文件夹`)
+
+## `mkdir`
+创建文件夹
+
+## `rmdir`
+删除文件夹
+
 ## `man`
 用于查询命令对应的手册，例如 `man ls` 会显示如下图的手册: 
 

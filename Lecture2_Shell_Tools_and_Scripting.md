@@ -118,3 +118,48 @@ ImageMagick 工具集中的一个命令行工具，用于图像处理、格式�
 这里可以用 `{}` 拓展符: `covert photo1.{png,jpg}` 
 
 ---
+
+## 关于脚本第一行指定解释器的代码(shebang / hashbang)
+在脚本的第一行，通常使用 `#!`（称为 shebang 或 hashbang）来指定解释器。对于 Bash 脚本，第一行通常是：
+
+```bash
+#!/bin/bash
+```
+
+这行代码告诉操作系统使用 `/bin/bash` 来解释和执行这个脚本。具体来说：
+
+- `#!` 是一个特殊的标记，表示这是一个解释器指令。
+- `/bin/bash` 是 Bash 解释器的路径，操作系统会使用这个路径下的 Bash 来解释和执行脚本中的命令。
+
+如果你使用的是其他 shell 或解释器，比如 `sh`、`python` 等，你可以相应地更改路径。例如：
+
+- 对于 `sh` 脚本：`#!/bin/sh`
+- 对于 Python 脚本：`#!/usr/bin/python3`
+
+这个第一行的代码被称为 **shebang** 或 **hashbang**。
+
+---
+
+## shellcheck 脚本检查工具
+安装shellcheck: 
+
+```bash
+brew install shellcheck
+```
+
+![](./png_md/PixPin_2025-02-26_00-43-03.png)
+
+此工具可用于检查脚本中存在的错误，例如提示没有指定解释器、cd存在失败可能
+
+在文件首行指定解释器bash，并修复cd失败可能导致的错误
+
+![](./png_md/PixPin_2025-02-26_00-59-49.png)
+
+再次使用shellcheck检查mcd.sh
+
+![](PixPin_2025-02-26_01-01-17.png)
+
+这次没有报错，说明检查通过
+
+---
+

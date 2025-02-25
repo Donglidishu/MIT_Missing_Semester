@@ -172,13 +172,14 @@
   "lastOpenFiles": [
     "Lecture1_Course_overview_and_bash.md",
     "Lecture2_Shell_Tools_and_Scripting.md",
+    "png_md/PixPin_2025-02-26_01-01-17.png",
+    "png_md/PixPin_2025-02-26_00-59-49.png",
+    "png_md/PixPin_2025-02-26_00-43-03.png",
     "Lecture2_Shell_Tools_and_Scripting/test2.txt",
     "Lecture2_Shell_Tools_and_Scripting/test1.txt",
     "Lecture2_Shell_Tools_and_Scripting/temp/output.txt",
     "Lecture2_Shell_Tools_and_Scripting/temp",
-    "Lecture2_Shell_Tools_and_Scripting/output.txt",
     "Lecture2_Shell_Tools_and_Scripting/foobar.sh",
-    "Lecture2_Shell_Tools_and_Scripting/findFoobar.sh",
     "png_md/PixPin_2025-02-24_11-31-17.png",
     "png_md/PixPin_2025-02-24_11-29-34.png",
     "png_md/PixPin_2025-02-24_01-25-11.png",
@@ -188,9 +189,8 @@
     "Lecture2_Shell_Tools_and_Scripting/mkdir",
     "Lecture2_Shell_Tools_and_Scripting/bangbang",
     "png_md/PixPin_2025-02-23_16-30-22.png",
-    "png_md/PixPin_2025-02-23_16-29-46.png",
-    "png_md/PixPin_2025-02-23_16-19-29.png",
-    "png_md/PixPin_2025-02-23_15-50-25.png",
-    "Lecture2_Shell_Tools_and_Scripting/mcd.sh"
+    "Lecture2_Shell_Tools_and_Scripting/mcd.sh",
+    "Lecture2_Shell_Tools_and_Scripting",
+    "Lecture1_Bash/baiduHead.txt"
   ]
 }
