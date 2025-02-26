@@ -4,5 +4,6 @@
   "textFontFamily": "",
   "translucency": false,
   "theme": "system",
-  "cssTheme": "Things"
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 16
 }
