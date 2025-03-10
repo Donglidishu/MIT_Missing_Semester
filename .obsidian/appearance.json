@@ -3,7 +3,7 @@
   "interfaceFontFamily": "Comic Shanns Mono",
   "textFontFamily": "",
   "translucency": false,
-  "theme": "system",
-  "cssTheme": "Blue Topaz",
+  "theme": "moonstone",
+  "cssTheme": "",
   "baseFontSize": 16
 }

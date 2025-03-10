@@ -370,9 +370,9 @@ rg [选项] 模式 [路径]
    - 在当前目录及其子目录中递归搜索 `search_pattern`。
 
 2. **指定文件类型**
-   ```bash
+```bash
    rg "search_pattern" --type python
-   ```
+```
    - `--type`：指定文件类型（如 `python`、`js`、`markdown` 等），只搜索指定类型的文件。
 
 3. **忽略大小写**
@@ -615,3 +615,14 @@ rg [选项] 模式 [路径]
 
 ---
 
+## `tree`
+使用tree命令可以更直观地查看文件夹结构
+![](png_md/PixPin_2025-03-11_01-17-27.png)
+
+## broot / nnn
+
+### broot
+![](png_md/PixPin_2025-03-11_01-18-48.png)
+
+### nnn
+![](png_md/PixPin_2025-03-11_01-19-40.png)
